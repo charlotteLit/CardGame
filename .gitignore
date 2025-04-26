@@ -1,0 +1,34 @@
+# 忽略Visual Studio生成的文件
+.vs/
+*.vcxproj.user
+*.suo
+*.user
+*.opensdf
+*.sdf
+*.cache
+*.pdb
+*.ipch
+*.db
+*.obj
+*.exe
+*.log
+
+# Debug/Release编译文件夹
+Debug*/
+Release*/
+*.ilk
+*.idb
+
+# CMake / Visual Studio
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+build/
+out/
+
+# Cocos2d-x生成的临时文件
+proj.win32/Debug.win32/
+proj.win32/Release.win32/
+
+# Mac系统自动生成
+.DS_Store
